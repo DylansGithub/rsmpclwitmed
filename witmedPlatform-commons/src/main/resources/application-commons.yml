@@ -1,0 +1,10 @@
+###提取consumer和provider的公共配置
+###配置spring boot bean id 的override机制
+spring:
+  main:
+    allow-bean-definition-overriding: true
+###配置eureka client信息
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9999/eureka/
